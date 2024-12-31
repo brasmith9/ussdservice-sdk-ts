@@ -1,0 +1,24 @@
+{
+  "name": "ussdservice-sdk-ts",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Isaac Amankwaah Anane",
+      "email": "isaacanane9@gmail.com"
+    }
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": ["USSD"],
+  "author": "Isaac Amankwaah Anane",
+  "license": "ISC",
+  "description": "USSD framework for Javascript",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
